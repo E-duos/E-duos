@@ -1,0 +1,46 @@
+
+
+img{
+    width: 35px;
+    border-radius: 10px;
+    margin: 0px;
+    margin-left: 1200px;
+    margin-bottom: 0px;
+}
+
+
+body {
+    font-family: "Montserrat", Arial, sans-serif;
+    background-color:rgb(124, 124, 115);        
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #18182f;
+    color: rgb(253, 253, 253);
+    border-radius: 10px;
+    margin-bottom: 0px;
+    overflow: auto;
+    
+}
+h1 {
+    float: left; /* Hace que el h1 flote a la izquierda */
+    margin-right: 5px; /* Espacio entre el h1 y la imagen */
+    font-weight: unset;
+    margin-left: 30px;
+    text-align: left;
+}
+
+header img{
+    margin: 30px;
+    width: 30px;
+    border-radius: 20px;
+    margin-left: 1px;
+}
+
+nav a{
+
+    text-align: left;
+
+}

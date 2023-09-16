@@ -1,0 +1,721 @@
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: rgb(48, 47, 47);
+    
+}
+
+img{
+    display: flex; 
+    height: 40px;
+    border-radius: 12px;
+    margin-left: 45px;
+    margin-right: 10px;
+}
+
+
+.menu1{
+    padding: 27px;
+    background-color:  rgb(48, 47, 47);
+    
+    
+
+}
+
+.eduosa{
+
+    color: rgb(20, 202, 172);   
+    text-decoration: none; 
+    position: absolute;
+    top: 18px;
+    right: 210px;
+    
+
+}
+
+
+.img1{
+
+    position: absolute;
+    top: 8px;
+    right: 150px;
+}
+
+.img2{
+
+    position: absolute;
+    top: 8px;
+    right: 110px;
+    margin: 0;
+
+
+}
+
+
+.hamburguesa {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    transform: translate (-50%, -50%) scale(6);
+    cursor: pointer;
+    display: none;
+}
+
+.bar {
+    background: #fff;
+    display: block;
+    height: 3px;
+    width: 25px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.menu-icon {
+    display: block;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    height: 3px;
+    width: 25px;
+    margin: 6px auto;
+    background-color: #14caac;
+    transition: 0.4s;
+}
+
+
+.hamburguesa.active + .menu-container {
+    display: flex;
+}
+
+
+
+
+header{
+
+    display: flex;
+    height: 70px;
+    background-image: url(imagenes/EA-Sports-FC-24.jpg);
+    background-position: center center;
+    background-size: 100%;
+    justify-content: space-between;     
+    align-items: center;
+    padding: 70px;
+    border-radius: 20px 20px 0 0 ;
+    
+}
+
+
+.logo img{
+
+    height: 45px;
+    position: absolute;
+    top: 80px;
+    border-radius: 12px 12px 20px 20px;
+
+}
+
+.nombreeduos{
+
+    position: absolute;
+    top: 65px;
+    left: 170px;
+
+}
+
+
+
+.nav1{
+
+    position: absolute;
+    top: 140px;
+    left: 110px;
+    
+
+}
+.nav1 a{
+
+    color: rgb(20, 202, 172);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 7px;
+
+}
+
+
+.nav2 {
+
+
+    position: absolute;
+    top: 70px;
+    right: 100px;
+    
+}
+
+.nav2 a {
+
+    
+    color: rgb(20, 202, 172);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 7px;
+
+
+}
+
+
+h2{color: rgb(20, 202, 172);}
+h3{color: rgb(20, 202, 172);}
+button {
+       
+    padding: 10px 20px;
+    background-color: rgb(20, 202, 172);
+    border: none;
+    border-radius: 5px;
+    color:  white;
+    cursor: pointer;
+}
+
+
+header h1{
+    color: rgb(20, 202, 172);
+}
+
+
+.header-container{
+
+    max-width: 100%;
+    height: 140px;
+    background-color: #14caac;
+}
+
+
+.container1{
+
+    width:  1100px;
+    height: 2800px;
+    background-color: aliceblue;
+    position: relative;
+    border-radius: 15px;
+    left: 115px;
+    
+    
+}
+
+.title{
+
+    color: #14caac;
+    font-size: 600;
+    margin: 0;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.parrafo{
+
+    padding: 10px 100px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+}
+
+.imagen-parrafo{
+
+    
+    max-width: 1010px;
+    width: 550;
+    height: 700px;
+    
+}
+
+.info_e-duos{
+
+    padding-top: 35px;
+    display: block;
+
+}
+
+.info_e-duos ul {
+     /* Elimina los puntos de la lista */
+    padding-left: 120px;
+    margin-right: 100px;
+    
+}
+
+.info_e-duos li{
+
+    margin-top: 20px;
+}
+
+
+.title-h2{
+
+    text-align: center;
+    margin-top: 35px;
+}
+
+
+.video1{
+    font-style: normal;
+    text-align: center;
+    padding: auto;
+    background-color:rgb(245, 245, 245);
+    padding-top: 20px;
+    margin-top: 0;
+    padding-bottom: 40PX;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.videos-container {
+    overflow: hidden;
+    position: relative;
+    width: 1200px; /* Ajusta el ancho del contenedor según sea necesario */
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.videos-wrapper {
+    display: flex;
+    animation: scrollVideos 10s linear infinite; /* Ajusta la duración del desplazamiento según sea necesario */
+}
+
+.videos {
+    display: flex;
+    width: 200%; /* Doble del número de videos para asegurar un desplazamiento continuo */
+}
+
+.video {
+    margin: 20px;
+    max-width: 560px;
+    text-align: center;
+}
+
+.video iframe {
+    width: 100%;
+    height: 315px;
+}
+
+.video h2 {
+    margin-top: 10px;
+}
+
+@keyframes scrollVideos {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(50%); }
+}
+
+
+
+
+
+
+
+
+.footer{
+
+    margin: 0;
+    height: 220px;
+    background-color: rgb(20, 202, 172);
+    border-radius: 0px 0px 20px 20px;
+    position: relative;
+    
+    
+    
+}
+
+.logofooter{
+
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 70px;
+    
+}
+
+.logofooter img{
+
+    border-radius: 12px 12px 22px 22px;
+}
+
+
+
+
+.menufooter{
+
+    position: absolute;
+    top: 10px;
+    left: 370px;
+    text-decoration: column;
+    text-align: center;
+    
+    
+
+
+}
+
+.menufooter a{
+    margin-bottom: 5px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+    
+.social-icons {
+    font-size: 24px;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+    right:  790px;
+    padding-right: 0;
+    
+
+}
+    
+.social-icon {      
+    color: white;
+    margin: 0 10px;
+    
+}
+
+.social-icons h4{
+    
+    position: relative;
+    left: 25px;
+    margin: 0;
+    margin-bottom: 10px;
+    color: white
+}
+    
+
+
+
+
+.terminos{
+
+    position: absolute;
+    top: 10px;
+    right: 250px;
+    text-decoration: column;
+    text-align: center;
+
+}
+
+.terminos a{
+
+    margin-bottom: 5px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+
+.social-icon:hover,
+.menufooter a:hover{
+
+    color: black;
+
+}
+
+.terminos a:hover{
+
+    color: rgb(0, 0, 0);
+
+
+}
+
+
+
+
+
+
+.relleno-footer{
+
+    height: 35px;
+    background-color:  rgb(10, 10, 243);
+   
+    padding-top: 35px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+
+    margin: 0;
+    height: 220px;
+    background-color: rgb(20, 202, 172);
+    border-radius: 0px 0px 20px 20px;
+    position: relative;
+    
+}
+
+.logofooter{
+
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 70px;
+    
+}
+
+.logofooter img{
+
+    border-radius: 12px 12px 22px 22px;
+}
+
+
+
+
+.menufooter{
+
+    position: absolute;
+    top: 10px;
+    left: 370px;
+    text-decoration: column;
+    text-align: center;
+    
+    
+
+
+}
+
+.menufooter a{
+    margin-bottom: 5px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+    
+.social-icons {
+    font-size: 24px;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+    right:  790px;
+    padding-right: 0;
+    
+
+}
+    
+.social-icon {      
+    color: white;
+    margin: 0 10px;
+    
+}
+
+.social-icons h4{
+    
+    position: relative;
+    left: 25px;
+    margin: 0;
+    margin-bottom: 10px;
+    color: white
+}
+    
+
+
+
+
+.terminos{
+
+    position: absolute;
+    top: 10px;
+    right: 250px;
+    text-decoration: column;
+    text-align: center;
+
+}
+
+.terminos a{
+
+    margin-bottom: 5px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+
+.social-icon:hover,
+.menufooter a:hover{
+
+    color: black;
+
+}
+
+.terminos a:hover{
+
+    color: rgb(0, 0, 0);
+
+
+}
+
+
+
+
+
+
+.relleno-footer{
+
+    height: 35px;
+    background-color:  rgb(48, 47, 47);
+    margin: 0;
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+   body{
+    margin: 0;
+
+   }
+
+    
+
+    .hamburguesa{
+
+        position: absolute;
+        left: 380px;
+        top: 88px;
+        display: block;
+    }
+
+    .menunav{
+
+        position: absolute;
+        top: 140px;
+        left: 0px;
+        height: 160px;
+        width: 100%;
+        background-image: linear-gradient(
+            0deg,
+            rgb(0,0,0,0.5),
+            rgb(0,0,0,0.5)
+        )
+        ,url(imagenes/realmadrid-tifo.jpg);
+    
+        background-size: 100%;
+        background-position: center;
+        border-radius: 15px;
+        display: none;
+        opacity: 0;
+
+    }
+
+   
+
+    .nav1 {
+
+        position: absolute;
+        top: 20px;
+        left: 100px;
+        
+    }
+    
+    .nav2{
+
+        position:absolute;
+        top: 20px;
+        
+    }
+
+    .nav1 a{
+
+        display: block;
+        flex-direction: column;
+        margin-bottom: 15px;
+
+    }
+
+    .nav2 a{
+
+        display: block;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    @keyframes menunav {
+
+        from{opacity: 0;}
+        to{opacity: 1;}
+        
+    }
+
+    .menunav.activado{
+
+        display: flex;
+        animation: menunav 350ms ease-in-out both;
+    }
